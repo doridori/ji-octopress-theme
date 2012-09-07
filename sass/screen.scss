@@ -199,16 +199,17 @@ article {
   }
 }
 
-.pink {
-   a {
+a strong {
+   
     margin-right: 15px;
     background-color: $magenta;
     padding: 3px;
+    color: #fff;
 
     &, &:visited, &:hover {
       text-decoration: none;
       color: #fff;
-    }
+    
   }
 }
 
