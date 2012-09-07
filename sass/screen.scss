@@ -199,6 +199,19 @@ article {
   }
 }
 
+.pink {
+   a {
+    margin-right: 15px;
+    background-color: $magenta;
+    padding: 3px;
+
+    &, &:visited, &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
 .sharing {
   margin-top: 20px;
   margin-bottom: 20px;
